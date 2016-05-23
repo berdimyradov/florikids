@@ -1,0 +1,25 @@
+{
+  "name": "florikids",
+  "version": "1.0.0",
+  "description": "Chary dayy uchin sayt",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kerim Berdimyradov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-less": "^3.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-pngquant": "^4.0.0",
+    "rimraf": "^2.5.2"
+  }
+}

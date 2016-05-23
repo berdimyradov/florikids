@@ -1,0 +1,24 @@
+{
+  "name": "florikids",
+  "description": "Chary dayy uchin sayt",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kerim Berdimyradov"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*"
+  }
+}

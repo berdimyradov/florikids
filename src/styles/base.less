@@ -1,0 +1,33 @@
+html {
+
+}
+
+body {
+
+}
+
+body, input, select, textarea {
+  color: @main-color;
+  font-family: @font-family-regular;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+//@todo .row -> delete if not neccessary
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+
+  &:before, &:after{
+	display: table;
+	content: " ";
+  }
+
+  &:after {
+	clear: both;
+  }
+}
