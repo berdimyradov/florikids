@@ -58,7 +58,7 @@ gulp.task('images', ['clean'], function(){
 });
 
 gulp.task('fonts', ['clean'], function(){
-	return gulp.src(path.src + '/fonts/**/*')
+	return gulp.src([path.src + '/fonts/**/*', path.bower + '/font-awesome/fonts/fontawesome-webfont.woff'])
 		.pipe(gulp.dest(path.build + '/fonts'));
 });
 

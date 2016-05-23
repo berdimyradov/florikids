@@ -11,3 +11,43 @@
   font-weight: normal;
   font-style: normal;
 }
+
+//Customized font-awesome
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{FONTS_PATH}/Font-Awesome.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before { content: '\e800'; }
+.icon-twitter:before { content: '\e801'; }
+.icon-instagram:before { content: '\e802'; }
+.icon-google:before { content: '\e803'; }
+.icon-github:before { content: '\e804'; }
+.icon-skype:before { content: '\e805'; }
+.icon-youtube-play:before { content: '\e806'; }
+.icon-youtube:before { content: '\e807'; }
+.icon-wechat:before { content: '\e808'; }
+.icon-vkontakte:before { content: '\e809'; }
+.icon-whatsapp:before { content: '\e80a'; }
