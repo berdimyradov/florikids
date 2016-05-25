@@ -1,18 +1,35 @@
 section.about-us {
   .clearfix();
 
+  @media screen and (max-width: @screen-md) {
+	margin-top: 1em !important;
+  }
+
   header {
 	.clearheader();
 
+	@media screen and (max-width: @screen-sm) {
+	  width: 100%;
+	  margin-bottom: 0;
+	}
+
 	display: inline-block;
-	width: 50%;
+	width: 47%;
 
 	h2 {
 	  text-align: left;
+
+	  @media screen and (max-width: @screen-sm) {
+		text-align: center;
+	  }
 	}
 
 	p {
 	  text-align: left;
+
+	  @media screen and (max-width: @screen-sm) {
+		text-align: center;
+	  }
 	}
   }
 
@@ -20,6 +37,12 @@ section.about-us {
 	display: inline-block;
 	width: 50%;
 	float: right;
+	margin-left: 1em;
+
+	@media screen and (max-width: @screen-sm) {
+	  width: 100%;
+	  margin-left: 0;
+	}
 
 	p {
 	  font-size: 1.1em;

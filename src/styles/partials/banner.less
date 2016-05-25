@@ -14,6 +14,16 @@ section.banner {
   h2 {
 	color: @lighter-color;
 	font-size: 4em;
+
+	@media screen and (max-width: @screen-md){
+	  font-size: 3.5em;
+	  margin-bottom: 0.7em;
+	}
+
+	@media screen and (max-width: @screen-sm){
+	  font-size: 3em;
+	  margin-bottom: 0.5em;
+	}
   }
 
   p {
@@ -21,9 +31,24 @@ section.banner {
 	font-size: 1.5em;
 	margin-bottom: 1.75em;
 	text-transform: uppercase;
+
+	@media screen and (max-width: @screen-md){
+	  font-size: 1.5em;
+	}
+
+	@media screen and (max-width: @screen-sm){
+	  font-size: 1.15em;
+	}
   }
 
-  a {
-	color: @lighter-color;
+  a.btn {
+
+	@media screen and (max-width: @screen-md){
+	  font-size: 1.15em;
+	}
+
+	@media screen and (max-width: @screen-sm){
+	  font-size: 1em;
+	}
   }
 }

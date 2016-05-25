@@ -1,8 +1,16 @@
 footer {
   .clearfix();
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   padding: 8em 0 6em 0;
+
+  @media screen and (max-width: @screen-lg) {
+	width: 85%;
+  }
+
+  @media screen and (max-width: @screen-md) {
+	width: 95%;
+  }
 
   ul.icons {
 	font-size: 3.25em;

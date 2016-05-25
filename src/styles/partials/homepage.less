@@ -4,14 +4,48 @@ section.homepage {
 
   section {
 	padding: 5em 0 3em 0;
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
+
+	@media screen and (max-width: @screen-lg) {
+	  width: 85%;
+	}
+
+	@media screen and (max-width: @screen-md) {
+	  width: 95%;
+	  padding: 3em 0 2em 0;
+	}
+
+	@media screen and (max-width: @screen-sm) {
+	}
   }
 
   header {
 
 	h1 {
 	  color: @lighter-color;
+	}
+
+	h2 {
+
+	  @media screen and (max-width: @screen-md){
+		font-size: 2.75em;
+	  }
+
+	  @media screen and (max-width: @screen-sm){
+		font-size: 2.25em;
+	  }
+	}
+
+	p {
+
+	  @media screen and (max-width: @screen-md){
+		font-size: 1.5em;
+	  }
+
+	  @media screen and (max-width: @screen-sm){
+		font-size: 1.25em;
+	  }
 	}
 
 	a {
